@@ -9,6 +9,7 @@
 9. maven-deploy-plugin
 10. maven-gpg-plugin
 11. [idea] 编译报错 javacTask:源发行版1.8 需要目标发行版1.8 https://blog.csdn.net/weixin_36210698/article/details/71036504
+12. 研究 MpscLinkedQueue 无锁队列，在camel.tc.cmq.batch
 
 
 
