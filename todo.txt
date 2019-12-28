@@ -1,0 +1,17 @@
+1. pom.scm 如何使用及了解
+2. pom.prerequisites 如何使用
+3. HikariCP: HikariCP是一个高性能的JDBC连接池，基于BoneCP做了不少的改进和优化。作者是个日本人，他还有另外一个开源作品——高性能的JSON解析器HikariJSON(done)
+4. maven-javadoc-plugin 学习
+5. maven-compiler-plugin
+6. maven-source-plugin
+7. maven-resources-plugin
+8. maven-assembly-plugin
+9. maven-deploy-plugin
+10. maven-gpg-plugin
+11. [idea] 编译报错 javacTask:源发行版1.8 需要目标发行版1.8 https://blog.csdn.net/weixin_36210698/article/details/71036504
+
+
+
+
+find cmq-* -name "*.iml" -exec rm -f '{}' \;
+一定找个时间，把maven的书从头看一遍
