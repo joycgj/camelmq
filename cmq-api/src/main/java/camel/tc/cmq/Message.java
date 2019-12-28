@@ -107,7 +107,7 @@ public interface Message {
     Map<String, Object> getAttrs();
 
     /**
-     * 期望显式的手动ack时，使用该方法关闭qmq默认的自动ack。
+     * 期望显式的手动ack时，使用该方法关闭cmq默认的自动ack。
      * 该方法必须是在consumer端的MessageListener的onMessage方法入口处调用，否则会抛出异常
      * <p/>
      * 在producer端调用时会抛出UnsupportedOperationException异常
