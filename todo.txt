@@ -11,8 +11,9 @@
 11. [idea] 编译报错 javacTask:源发行版1.8 需要目标发行版1.8 https://blog.csdn.net/weixin_36210698/article/details/71036504
 12. 研究 MpscLinkedQueue 无锁队列，在camel.tc.cmq.batch
 13. 研究 NetworkUtils.java
-
-
+14. 研究 Checksums.java
+15. study Crc32
+16.
 
 find cmq-* -name "*.iml" -exec rm -f '{}' \;
 一定找个时间，把maven的书从头看一遍
