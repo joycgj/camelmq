@@ -1,6 +1,6 @@
 package camel.tc.cmq.store.buffer;
 
-import qunar.tc.qmq.store.LogSegment;
+import camel.tc.cmq.store.LogSegment;
 
 import java.nio.ByteBuffer;
 

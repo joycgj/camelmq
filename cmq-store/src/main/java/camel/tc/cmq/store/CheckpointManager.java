@@ -59,7 +59,7 @@ public class CheckpointManager implements AutoCloseable {
         this.indexIterateCheckpoint = loadIndexIterateCheckpoint();
         this.syncActionCheckpoint = new AtomicLong(loadSyncActionCheckpoint());
         if (needSyncCheckpoint(role, messageCheckpoint, actionCheckpoint)) {
-            // TODO(keli.wang): must try to cleanup this messy...
+            // TODO: must try to cleanup this messy...
             final ByteBuf buf = loader.loadCheckpoint();
             buf.readByte();
             final int messageLength = buf.readInt();

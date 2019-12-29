@@ -2,6 +2,7 @@ package camel.tc.cmq.store;
 
 // done
 public class PullLogMessage {
+
     private final long sequence;
     private final long messageSequence;
 
